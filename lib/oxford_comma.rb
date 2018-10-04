@@ -22,3 +22,5 @@ def oxford_comma(array)
       return new_array
     end
 end
+
+oxford_comma(["harry", "john", "phillip"])
