@@ -1,5 +1,6 @@
 def oxford_comma(array)
-  array.join(", ")
+  string = array.join(", ")
+  puts string
 end
 
 oxford_comma(["harry", "john", "phillip"])
