@@ -19,7 +19,7 @@ def oxford_comma(array)
       new_array.push(array.shift())
       counter += 1 
     end
-      return new_array
+      return new_array.join(", ")
     end
 end
 
