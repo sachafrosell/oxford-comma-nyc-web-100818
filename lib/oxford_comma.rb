@@ -16,7 +16,7 @@ def oxford_comma(array)
     counter = 1
     new_array = []
     while counter < array.length
-      new_array.push(array.pop())
+      new_array.push(array.shift())
       counter += 1 
     end
       return new_array
