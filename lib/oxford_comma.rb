@@ -4,6 +4,7 @@ def oxford_comma(array)
   else 
     array.insert(array.length - 1, "and")
     return array.join(", ")
+  end
 end
 
 oxford_comma(["harry", "john", "phillip"])
