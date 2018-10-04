@@ -12,6 +12,7 @@ def oxford_comma(array)
       new_array.push(array.shift())
       counter += 1 
     end
+      puts new_array
       return "#{new_array.join(", ")}, and #{array.join}"
     end
 end
