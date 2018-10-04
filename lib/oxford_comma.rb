@@ -5,10 +5,9 @@ def oxford_comma(array)
     return array.join("")
   elsif array.length == 2 
     return "#{array.shift()} and #{array.pop()}"
-  else
     counter = 1
     new_array = []
-    while counter < array.length
+    while counter <= array.length
       new_array.push(array.shift())
       counter += 1 
     end
@@ -16,4 +15,4 @@ def oxford_comma(array)
     end
 end
 
-oxford_comma(["kiwi", "durian", "starfruit"])
+oxford_comma(["Harry", "John", "Rodger"])
