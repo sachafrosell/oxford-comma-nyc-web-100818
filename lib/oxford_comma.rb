@@ -8,7 +8,7 @@ def oxford_comma(array)
   else
     counter = 1
     new_array = []
-    while counter < array.length
+    while counter <= array.length
       new_array.push(array.shift())
       counter += 1 
     end
